@@ -61,12 +61,12 @@ const createNote = (note) => {
 
     note.id = idForNewNote
     notes.push(note)
+    note.dateCreated = Date()
 }
 
 //define new note
 const humpdayNote = {
-    subject: "fooling around with JS once again",
-    dateCreated: Date(),
+    subject: "fooling around with JS once again",    
     feeling: "At first worried, but for now entertained",
     timeSpent: 300
 }
